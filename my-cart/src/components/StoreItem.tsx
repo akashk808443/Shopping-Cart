@@ -4,7 +4,7 @@ import { useShopCart } from "../context/ShopCartContext";
 type StoreItemProps = {
   id: number;
   name: string;
-  price: string;
+  price: number;
   imgUrl: string;
 };
 const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {

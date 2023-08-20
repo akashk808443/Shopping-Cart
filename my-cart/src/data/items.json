@@ -2,25 +2,25 @@
     {
       "id": 1,
       "name": "Car",
-      "price": "₹ 15,56,264",
+      "price": 1556264,
       "imgUrl": "/images/model-3.jpg"
     },
     {
       "id": 2,
       "name": "Car",
-      "price": "₹ 20,43,284",
+      "price":  2043284,
       "imgUrl": "/images/model-s.jpg"
     },
     {
       "id": 3,
       "name": "Car",
-      "price": "₹ 17,16,564",
+      "price":  1716564,
       "imgUrl": "/images/model-x.jpg"
     },
     {
       "id": 4,
       "name": "Car",
-      "price": "₹ 27,68,834",
+      "price":  2768834,
       "imgUrl": "/images/model-y.jpg"
     }
   ]
