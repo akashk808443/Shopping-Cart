@@ -1,6 +1,8 @@
 import { useShopCart } from "../context/ShopCartContext";
 import storeItems from "../data/items.json";
 import {Stack ,Button} from "react-bootstrap";
+import { formatCurrency } from "../utilities/formatCurrency";
+
 type CartItemProps={
     id:number;
     quantity:number;
@@ -22,7 +24,7 @@ const CartItem = ({id,quantity}:CartItemProps) => {
          {item.price}
       </div>
       <div>
-         {item.price * quantity }
+         {formatCurrency(item.price * quantity )}
       </div>
       <Button variant="outline-danger" size="sm" onClick = { () => removeQuantity(item.id)}>&times;</Button>
 
